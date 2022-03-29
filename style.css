@@ -1,0 +1,43 @@
+@charset "utf-8";
+.container {
+  height: 350px;
+  display: flex;
+}
+.left {
+    background-color: #96d8a494;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-right: 5px;
+}
+.right {
+    flex: 1;
+    background-color: #a0a9df;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 5px;
+}
+.center {
+    flex: 2;
+    background-color: #e4b3d9;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+.left span {
+  color: #FFFFFF;
+  font-size: 75px;
+}
+.right span {
+  color: #FFFFFF;
+  font-size: 75px;
+}
+.center span {
+  color: #FFFFFF;
+  font-size: 75px;
+}
